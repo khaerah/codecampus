@@ -1,0 +1,145 @@
+body{
+    margin: 50px;
+}
+
+.island{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.island h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    width: 50%;
+
+}
+
+.faroe{
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+
+.tour{
+    background-color: white;
+    border: solid 2px ;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+
+.ject{
+    padding-left: 800px;
+    color: grey;
+}
+
+
+hr{
+    color: black;
+}
+
+.hello{
+    font-size: 30px;
+    display: flex;
+    padding-left: 600px;
+    margin-left: 5px;
+}
+
+.welcome{
+    border: solid 1px black;
+    margin-top: px;
+}
+
+.first{
+    background-color: white;
+    display: flex;
+}
+
+.last{
+    
+}
+.pro{
+    display: flex;
+
+}
+
+.input{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    border: solid 1px black;
+    padding: 50px;
+}
+
+.let{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* ready for an adventure of a life time */
+.ready{
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    border: solid 1px ;
+}
+
+/* image */
+.img{
+    border: solid 1px;
+}
+
+/* travel with ease */
+.travel{
+    display: flex;
+    text-align: center;
+}
+
+.authentic{
+    text-align:center ;
+}
+
+.rate{
+    text-align: justify;
+}
+
+/* top rated tours */
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  width: 100%;
+}
+
+.output{
+    font-family: sans-serif;
+    font-size: 60px;
+    width: 490px;
+}
+
+.reason{
+    background-color: white;
+    font-family: sans-serif;
+    width: 490px;
+}
+
+/* images */
+.images{
+    background-color: white;
+    margin-top: 60px;
+    border: 1px solid;
+    margin-right: 900px;
+    font-family: sans-serif;
+
+}
+
+.foreign{
+    color: grey;
+    text-align: center;
+    padding-left: 8px;
+}
