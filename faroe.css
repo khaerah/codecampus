@@ -1,69 +1,76 @@
-body{
+body {
     margin: 50px;
 }
 
-.island{
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.island {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.island h1{
+
+.island h1 {
     font-size: 30px;
     font-family: sans-serif;
     width: 50%;
 
 }
 
-.faroe{
+.faroe {
     letter-spacing: 3px;
     font-family: sans-serif;
 }
 
-.tour{
+.tour {
     background-color: white;
-    border: solid 2px ;
+    border: solid 2px;
     margin-left: 10px;
     letter-spacing: 3px;
     font-family: sans-serif;
 }
 
-.ject{
+.ject {
     padding-left: 800px;
     color: grey;
 }
 
 
-hr{
+hr {
     color: black;
 }
 
-.hello{
+.hello {
     font-size: 30px;
     display: flex;
     padding-left: 600px;
     margin-left: 5px;
 }
 
-.welcome{
-    border: solid 1px black;
+.welcome {
+    /* border: solid 1px black; */
     margin-top: px;
 }
 
-.first{
+.first {
     background-color: white;
     display: flex;
 }
 
-.last{
-    
+.last {
+    border-bottom: 2px;
 }
-.pro{
+
+.pro {
     display: flex;
 
 }
 
-.input{
+.input {
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
@@ -71,7 +78,7 @@ hr{
     padding: 50px;
 }
 
-.let{
+.let {
     font-family: sans-serif;
     font-size: 30px;
     text-decoration: underline;
@@ -80,43 +87,70 @@ hr{
 }
 
 /* ready for an adventure of a life time */
-.ready{
+.ready {
     font-family: sans-serif;
     font-size: 40px;
     text-align: center;
-    border: solid 1px ;
+    border: solid 1px;
 }
 
 /* image */
-.img{
+.img {
     border: solid 1px;
 }
 
 /* travel with ease */
-.travel{
+.travel {
     display: flex;
     text-align: center;
+    width: 100%;
 }
 
-.authentic{
+.rate {
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+
+}
+
+/* .authentic{
     text-align:center ;
 }
 
 .rate{
     text-align: justify;
-}
+} */
 
 /* top rated tours */
-.top{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: solid 1px;
-  width: 100%;
+.top {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    align-items: center;
 }
 
-.output{
+.b1 {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.b2 {
+    display: inline-block;
+    background-color: #fff;
+    width: 50%;
+    padding-left: 10px;
+    height: 300px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    border-left: 1px solid;
+
+}
+
+/* .output{
     font-family: sans-serif;
     font-size: 60px;
     width: 490px;
@@ -126,20 +160,42 @@ hr{
     background-color: white;
     font-family: sans-serif;
     width: 490px;
-}
+} */
 
 /* images */
-.images{
-    background-color: white;
+.images {
+    background-color: #fff;
     margin-top: 60px;
     border: 1px solid;
-    margin-right: 900px;
+    margin-right: 850px;
     font-family: sans-serif;
-
 }
 
-.foreign{
-    color: grey;
+.foreign {
+    color: rgb(254, 251, 251);
     text-align: center;
     padding-left: 8px;
+    display: flex;
+}
+
+.nature {
+    text-align: center;
+}
+
+.lorem {
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+}
+
+.pic {
+    width: 312px;
+}
+
+.container {
+    text-align: center;
+}
+
+.a1 {
+    margin: 5px;
 }
