@@ -1,0 +1,31 @@
+.sec{
+    width: 300px;
+    height: 300px;
+    border: 2px solid palegreen;
+    display: flex;
+    align-items: center;
+
+
+}
+
+[class^="element"]{
+    width: 100px;
+    /* height: 100px; */
+    border: 1px solid blue;
+    background-color: aquamarine;
+}
+
+.element1{
+    align-self: flex-start;
+    height: 100px;
+}
+
+.element2{
+    height: 100px;
+}
+
+.element3{
+    align-self: stretch;
+    
+}
+

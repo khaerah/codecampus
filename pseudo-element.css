@@ -1,0 +1,23 @@
+p::first-line{
+    color: indianred;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:visited{
+    color: yellow;
+}
+
+
+.hello{
+    width: 50%;
+    border: 2px solid pink;
+}
+
+.para{
+    width: 50%;  
+    border: 1px solid indianred;
+
+}

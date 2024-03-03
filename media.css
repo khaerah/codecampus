@@ -1,0 +1,84 @@
+/* body{
+    background-color: yellow;
+}
+
+/* this is for the mobile */
+@media screen  and (min-width:250px) {
+    body{
+        background-color: red;
+    }
+    h1{
+        color: white;
+        font-size: 67px;
+        background-color: antiquewhite;
+        text-align: center;
+    }
+
+    .container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;    
+
+    }
+    
+    .item{
+        width: 80%;
+        height: 20%;
+        border: 2px solid white;
+        display: flex;
+    }
+}
+
+/* this is for the tab */
+
+@media screen and (min-width: 500px) {
+    body{
+        background-color: blue;
+    }
+
+    .container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;    
+
+    }
+    
+    .item{
+        width: 40%;
+        height: 20%;
+        border: 2px solid white;
+        display: flex;
+    }
+}
+
+/* this is for the desktop */
+
+@media screen and (min-width: 950px) {
+    body{
+        background-color: green;
+    }
+    h1{
+        color: white;
+        font-size: 87px;
+        background-color: pink;
+        text-align: center;
+    }
+
+    .container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .item{
+        width: 23%;
+        height: 20%;
+        border: 2px solid white;
+        display: flex;    
+    }
+} 
+
+

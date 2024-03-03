@@ -1,0 +1,66 @@
+body {
+    background-color: #ffffff;
+}
+
+@media screen and (min-width: 250px) {
+    body {
+        background-color: pink;
+    }
+
+    .container {
+        width: 100%;
+        height: 600px;
+        border: 2px solid green;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .container img {
+        width: 60%;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        background-color: violet;
+    }
+
+    .container {
+        width: 100%;
+        height: 600px;
+        border: 2px solid green;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .container img {
+        width: 40%;
+        height: 280px;
+    }
+}
+
+
+@media screen and (min-width: 920px) {
+    body {
+        background-color: rgb(234, 14, 50);
+    }
+
+    .container {
+        width: 100%;
+        height: 600px;
+        border: 2px solid green;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container img {
+        width: 23%;
+        height: 500px;
+    }
+}

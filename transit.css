@@ -1,0 +1,151 @@
+a {
+    font-family: sans-serif;
+    color: #fff;
+    text-indent: 1rem;
+    background-color: #ccc;
+    display: inline-flex;
+    flex: 1 1 20%;
+    align-self: stretch;
+    align-items: center;
+    text-decoration: none;
+    transition: box-shadow 1s;
+   }
+
+   a + a {
+    border-left: 1px solid #aaa;
+   }
+
+   a:hover {
+    box-shadow: inset 0 -3px 0 #cc3232;
+   }
+
+   p{
+    background-color: #cc3232;
+    border: 1px solid sandybrown;
+    text-shadow: 1px 2px 4px cyan;
+    transition: border 1s, color 1s, background-color 2s;
+   }
+
+   p:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: bisque;
+   }
+
+   .translate{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 240, 2);
+    /* transform: translate(300px, 0px); */
+}
+
+.translate:hover {
+    transform: translate(-20px, -20px);
+   }
+
+   .rotate{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 2, 169);
+    /* transform: rotate(45deg); */
+}
+
+.rotate:hover {
+    transform: rotate(30deg);
+   }
+
+.scale{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(2, 145, 240);
+}
+
+.scale:hover{
+    transform: scale(1.5, 3);
+
+}
+
+.skew{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(2, 240, 50);
+    transform: skew(-10deg, -15deg);
+}
+
+.matrix{
+        width: 300px;
+        height: 100px;
+        background-color: rgb(169, 143, 228);
+        /* transform: matrix(1, 0, 0.5, 1, 150, 0); */
+}
+
+.matrix:hover {
+    transform: matrix(1.678, -0.256, 1.522, 2.333, -51.533, -1.989);
+    /* transform-origin: 270px 20px; */
+   }
+
+
+/* 3d effect */
+.x-axis{
+    width: 100px;
+    height: 100px;
+    background-color: mediumpurple;
+    transform: rotateX(150deg);
+}
+.y-axis{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(248, 150, 210);
+    transform: rotateY(150deg);
+}
+.Z-axis{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242, 218, 233);
+    transform: rotateZ(150deg);
+
+}
+
+.outer {
+    position: relative;
+    height: 400px;
+    background-color: #f90;
+   }
+   /* .inner {
+    background-color: #cc3232;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(300px, 0px);
+   } */
+
+   .inner {
+    position: absolute;
+    width: 200px;
+    background-color: #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+
+   .top{
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    border: 2px solid pink;
+    position: relative;
+    perspective: 100px;
+   }
+
+   .bottom{
+    padding: 50px;
+    border: 2px solid indigo;
+    background-color: blueviolet;
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: rotate(45deg);
+   }

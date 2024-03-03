@@ -1,11 +1,8 @@
 body {
     margin: 50px;
+    
 }
 
-.row {
-    max-width: 1200px;
-    margin: auto;
-}
 
 .island {
     display: flex;
@@ -15,7 +12,7 @@ body {
 }
 
 .island h1 {
-    font-size: 30px;
+    font-size: 50px;
     font-family: sans-serif;
     width: 50%;
 
@@ -45,9 +42,9 @@ hr {
 }
 
 .hello {
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
-    padding-left: 600px;
+    padding-left: 200px;
     margin-left: 5px;
 }
 
@@ -186,7 +183,7 @@ hr {
     align-items: center;
     text-align: center;
     background-color: #fff;
-} */
+} */ 
 
 
 /* .output{
@@ -199,22 +196,34 @@ hr {
     background-color: white;
     font-family: sans-serif;
     width: 490px;
-} */
+}
+ */
 
 /* images */
-.images {
+/* .images {
     background-color: #fff;
-    margin-top: 60px;
-    border: 1px solid;
-    margin-right: 850px;
     font-family: sans-serif;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
 }
 
-.foreign {
-    color: rgb(254, 251, 251);
-    text-align: center;
-    padding-left: 8px;
+.la{
+    column-gap: 2%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+
+
+.foreign {
+    color: grey;
+    text-align: center;
+    display: flex;
+    font-size: 19px;
 }
 
 .nature {
@@ -227,9 +236,45 @@ hr {
     align-items: center;
 }
 
-.pic {
-    width: 312px;
+
+
+.png{
+    font-family: sans-serif;
+    height: 1000px;
+    width: 50%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    margin:30px ;
+
 }
+
+.days{
+    color: #fff;
+    background-color: black;
+    padding-left:50px;
+    padding-bottom: 40px;
+    display: flex;
+    margin-top: 2px;
+    margin-right: 187px;
+    justify-content:first baseline;
+}
+.how{
+    background-color: #fff;
+    column-gap: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    margin: 15px;
+    height: 600px;
+
+}
+
+
+
 
 .container {
     text-align: center;

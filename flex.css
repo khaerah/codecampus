@@ -1,0 +1,137 @@
+/* .container{
+    width: 70%;
+    border: 3px solid pink;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 30px;
+    height: 70px;
+    border: 4px solid indigo;
+    margin: auto;
+  
+} */
+/* 
+.MenuWrap {
+    background-color: indigo;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    flex-direction: column-reverse;
+}
+
+.ListItem,
+.LastItem {
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+.ListItem {
+    margin-right: 1rem;
+}
+
+.LastItem {
+    /* margin-left: auto; */
+}
+
+/*.CenterMe {
+    background-color: indigo;
+    color: #ebebeb;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CenterMe {
+    /* other properties */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* INLINE FLEX */
+/* .InlineFlex {
+    display: inline-flex;
+    align-items: center;
+    height: 120px;
+    padding: 0 4px;
+    background-color: indigo;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #ddd;
+}
+
+.FlexWrapper {
+    background-color: indigo;
+    display: flex;
+    height: 200px;
+    width: 400px;
+} */
+
+/* flex alignment property */
+/* .FlexItem {
+    background-color: #5b0038;
+    display: flex;
+    height: 100px;
+    width: 200px;
+}
+
+.AlignSelf {
+    align-self: center;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    height: 100px;
+    width: 200px;
+}
+
+.test1 {
+    align-self: self-end;
+    background-color: #5b0038;
+}
+
+.test2 {
+    align-self: center;
+    background-color: #5b0038;
+
+}
+
+.test3 {
+    align-self: start;
+    background-color: #5b0038;
+
+}*/ 
+
+.sec{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    display: f
+    border: 2px solid gold;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+[class^="element"] {
+    height: 100px;
+    width: 100px;
+    border: 3px solid pink;
+    /* background-color: indigo; */
+    /* align-self: center; */
+}
+
+.element1{
+    align-self: flex-end;
+}
