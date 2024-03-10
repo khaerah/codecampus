@@ -1,0 +1,311 @@
+body {
+  background-color: #faf7f1;
+  margin: 0;
+  padding: 10px;
+}
+
+/* HEADER CSS */
+.header {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header ul {
+  width: 33%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header li {
+  list-style-type: none;
+}
+.header li a {
+  text-decoration: none;
+  color: black;
+}
+.header h1 {
+  width: 33%;
+  margin: 0;
+}
+.header h1 span {
+  text-decoration: overline;
+}
+.header .icon {
+  width: 10%;
+  margin: 0;
+}
+
+/* SECTION ONE CSS */
+.sectionOne {
+  width: 100%;
+  height: 600px;
+  margin: 20px 0;
+  padding: 70px 50px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background-image: url("SectionOneMubi.jpg");
+  background-size: 100%;
+  color: black;
+}
+.sectionOne h1 {
+  width: 40%;
+  margin: 0;
+  font-style: italic;
+  font-size: 100px;
+  align-self: flex-start;
+}
+.sectionOne > div {
+  width: 70%;
+  height: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+.sectionOne > div > div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-self: flex-start;
+}
+.sectionOne p {
+  margin: 0;
+  font-style: italic;
+  font-size: large;
+}
+.sectionOne a {
+  color: black;
+  font-size: x-large;
+  text-decoration: underline;
+}
+.sectionOne img {
+  width: 45%;
+  align-self: flex-end;
+  border-radius: 50px;
+}
+
+/* SECTION TWO CSS */
+.sectionTwo {
+  width: 100%;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+}
+.sectionTwo h2 {
+  margin: 0;
+  font-size: 40px;
+  padding-left: 30px;
+}
+.sectionTwo .items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sectionTwo .item {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+  position: relative;
+}
+.sectionTwo .item:hover {
+  transform: scale(1.1, 1.2);
+}
+.sectionTwo .sales {
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+.sectionTwo img {
+  width: 100%;
+}
+.sectionTwo .item div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: flex-start;
+  font-size: 20px;
+}
+.sectionTwo .num {
+  color: rgb(251, 2, 2);
+  text-decoration: underline;
+}
+.sectionTwo .delete {
+  color: rgb(82, 29, 29);
+  opacity: 0.3;
+}
+.sectionTwo .add {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+/* SECTION THREE CSS */
+.sectionThree {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionThree .accessories {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionThree .accessories img {
+  width: 100%;
+}
+.sectionThree .accessoriesActual {
+  height: 80px;
+  font-size: 25px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+}
+.sectionThree .accessoriesActual a {
+  text-decoration: underline;
+}
+
+/* SECTION FOUR CSS */
+.sectionFour {
+  width: 100%;
+  height: 600px;
+  margin: 20px 0;
+  padding: 70px 50px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  background-image: url("SectionFourMubi.jpg");
+  background-size: 100%;
+  color: black;
+  position: relative;
+}
+.sectionFour h1 {
+  width: 50%;
+  margin: 0;
+  font-style: italic;
+  font-size: 100px;
+  align-self: flex-end;
+}
+.sectionFour div {
+  width: 30%;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-self: flex-start;
+}
+.sectionFour p {
+  margin: 0;
+  font-style: italic;
+  font-size: large;
+}
+.sectionFour a {
+  color: black;
+  font-size: x-large;
+  text-decoration: underline;
+}
+.sectionFour img {
+  opacity: 0.5;
+  width: 150px;
+  height: 300px;
+  align-self: flex-end;
+  border-radius: 50px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+
+/* SECTION FIVE CSS */
+.sectionFive {
+  width: 100%;
+  padding: 100px 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.sectionFive h2 {
+  margin: 0;
+  font-size: 30px;
+}
+.sectionFive > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sectionFive .sectionFiveContent {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: flex-start;
+  font-size: 15px;
+}
+.sectionFive .sectionFiveContent h3 {
+  margin: 0;
+}
+.sectionFive .sectionFiveContent p {
+  margin: 0;
+}
+
+/* FOOTER CSS */
+.footer {
+  width: 100%;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer div {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+}
+.footer div p {
+  font-size: 20px;
+  margin: 0;
+}
+.footer nav {
+  width: 51%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.footer nav ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.footer nav ul li {
+ list-style-type: none; 
+}
